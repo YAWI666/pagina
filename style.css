@@ -1,0 +1,126 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background: mintcream;
+}
+h1{font-size: 55px;
+font-weight: 600;
+line-height: 80px;}
+h2{
+    font-size: 40px;
+    color: gray;
+}
+h3{font-size: 20px;
+color: lightsteelblue;}
+p,li{
+    color: #999999;
+    margin-bottom: 0;
+}
+section{
+    padding-top: 150px ;
+}
+.topmargin-xs{margin-top: 15px;}
+.topmargin-sm{margin-top: 30px;}
+.topmargin-lg{margin-top: 60px;}
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+.btn-ligth{
+    background-color: darkslategray;
+    color: lavender;
+    border: 2px solid white;
+}
+.btn i{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.navbar{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0, 0.5);
+    min-height: 100px;
+}
+.logo{
+max-width: 80px;
+max-height: 80px;
+}
+.navbar-toggler{font-size: 40px;}
+.navbar-toggler:focus {outline: none;}
+#hero {
+    background-image: url('img/bg1.jpg');
+    background-size: cover;
+    padding-top:160px;
+    min-height: 700px;
+    color: #ffffff;
+}
+#hero p{
+    color: #ffffff;
+}
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+  #acerca .about-container {
+    background: url('img/img2.jpg') left top no-repeat;
+  }
+  
+  #acerca .about-content {
+    background: #fff;
+  }
+  #historia .about-container {
+    background: url('img/Escuela1.jpg') left top no-repeat;
+    color: ghostwhite;
+}
+  
+#historia .about-content {
+    background: #fff;
+    
+}
+#informacion{ text-align: center;}
+#informacion .row{
+    background: url('img/img1.jpg');
+    color: thistle;
+    max-width: 1275px;
+}
+#informacion .inf-content{
+    text-align: left;
+}
+.info{
+    padding: 50px;
+}
+table{
+    background: slateblue;
+    
+    padding: 5px;
+}
+
+.panel-des{
+    color: mediumturquoise;
+    font-size: 25px;
+}
+.mensaje{
+    background: mediumaquamarine;
+}
+.form-mensaje{
+    padding: 10px;
+}
+.p-5{text-align: center;
+background: blueviolet;}
+#footer {
+    background: darkslategrey;
+    padding: 30px 0;
+    color: #fff;
+  }
+  
+  #footer .copyright {
+    text-align: center;
+  }
+  
+  #footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+  }
